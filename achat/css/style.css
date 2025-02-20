@@ -1,0 +1,95 @@
+ RESET CSS 
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  
+/* le site */
+ main{
+  display: flex;
+  margin: 5%;
+  padding: 10%;
+  color: #000000;
+}
+
+
+  .toggle-btn {
+      display: block;
+  }
+  .input{
+    border-radius: 5px;
+    
+  }
+  .acc{
+    overflow: hidden;
+    width: 100%;
+  }
+ .article {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-color: #000000;
+    padding: 1.75rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 10px black;
+} 
+  
+  
+  .articles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: #000000;
+  }
+  
+.article img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.article h3 {
+  margin: 0.5rem;
+  color: orange;
+}
+
+.article p {
+  color: yellow;
+}
+
+.article button {
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+.art{
+  object-fit: cover;
+  transition: 1s ease;
+}
+img.hover{
+  transform: scale(1,4);
+}
+.article button {
+  background-color: #e8dc02;
+  color: #000000;
+}
+#popup-overlay{
+  position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgb(145, 140, 140);
+z-index: 98;
+display: none;
+}
+
+#popup-overlay.open{
+
+  display: block !important;
+}
+

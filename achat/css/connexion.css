@@ -1,0 +1,164 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #000000;
+    color: yellow;
+  }
+  /* nav barre code */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.navbar .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar .links a:hover {
+    color: #00bcd4;
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.navbar .search-bar input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid yellow;
+    border-radius: 4px;
+}
+
+.navbar .search-bar button {
+    padding: 4px 8px;
+    font-size: 17px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        align-items: start;
+    }
+}
+
+    .navbar .links {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar .search-bar {
+        width: 100%;
+        justify-content: start;
+        margin-top: 10px;
+    }
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+  main{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    background-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    box-shadow: 0px 0px 15px yellow;
+    border-color: white;
+    margin: 5%;
+  }
+
+
+    .input{
+      border-color: rgb(255, 255, 255);
+  
+      background-color: black;
+      border-radius: 5px;
+      
+    }
+
+  .sub{
+    border: none;
+    background-color: #e8dc02;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 6px;
+  }
+  .input{
+    color: white;
+    text-decoration: none;
+    border-color: #e8dc02;
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+  }
+  .container{
+    display: grid;
+    place-items: center;
+      flex-wrap: wrap;
+  }
+  .inscrption{
+    display: flex;
+  }
+  a {
+    color: yellow;
+    text-decoration: none;
+    display: flex;
+    
+  }
